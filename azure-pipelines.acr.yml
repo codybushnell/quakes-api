@@ -5,7 +5,7 @@ pool:
   vmImage: "Ubuntu-16.04"
 
 variables:
-  imageName: "quakes-api:$(build.buildId)"
+  imageName: "quakes-api:latest"
 
 steps:
   - script: |
